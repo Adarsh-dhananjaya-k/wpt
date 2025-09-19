@@ -7,16 +7,14 @@ const char* ssid = "INNOVATION HUB";
 const char* pass = "prsc$123";
 
 // ====== SinricPro Credentials ======
-#define APP_KEY    "664a1085-f119-4533-adf3-0d283f6843d7"     // From SinricPro dashboard
-#define APP_SECRET "3665e088-24f5-447b-b897-8e48b35fb258-28514f4a-e0c2-449d-977d-ca1e8264f14c"  // From SinricPro dashboard
+#define APP_KEY    "eb09e6cb-3e01-4711-a3e1-ff65e3d31a3f"     // From SinricPro dashboard
+#define APP_SECRET "b5177e7d-169a-43ee-b1c1-6bedcef74812-79739b36-49b3-45f7-9dd9-9d39cbc51172"  // From SinricPro dashboard
 
 // ====== Device IDs ======
-
-#define APP_KEY           "664a1085-f119-4533-adf3-0d283f6843d7"      
-#define APP_SECRET        "3665e088-24f5-447b-b897-8e48b35fb258-28514f4a-e0c2-449d-977d-ca1e8264f14c"   
+  
 // #define SWITCH_ID         "68c2a89f3fdc49efb6a659ea"
-#define RELAY1_ID "68c2a89f3fdc49efb6a659ea"  // Create a "Switch" in SinricPro
-#define RELAY2_ID "68c2aa69690df731215c976f"  // Create a second "Switch"
+#define RELAY1_ID "68ccf1f8b73c366187ef49ea"  // Create a "Switch" in SinricPro
+#define RELAY2_ID "68ccf19dc6e94834159ae5fd"  // Create a second "Switch"
 
 // ====== Relay Pins ======
 #define RELAY1_PIN D5
@@ -78,6 +76,7 @@ void setup() {
 void loop() {
   SinricPro.handle();
 }
+
 
 
 
